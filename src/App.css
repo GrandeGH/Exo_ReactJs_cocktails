@@ -8,7 +8,7 @@
 body {
   width: 100vw;
   height: 100vh;
-  background-color: rgb(200, 200, 200) !important;
+  background-color: rgb(214, 212, 212) !important;
 }
 .cocktailsTitre {
   display: flex;
@@ -23,4 +23,17 @@ section {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.dark {
+  color: white;
+  background-color: rgb(34, 34, 34);
+    .search, .card {
+      background-color: rgb(30, 30, 30);
+      color: white;
+      box-shadow: 0 0 7px 1px rgb(255, 255, 255);
+    }
+    .logo {
+      color: black;
+    }
 }

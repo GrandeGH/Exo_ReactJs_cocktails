@@ -6,10 +6,13 @@ function Nav() {
     return (
         <header>
             <nav>   
-                <div >TheCocktailDB</div>       
+                <div className='logo'>TheCocktailDB</div>       
                 <ul>
                     <li><button>Home</button></li>
                     <li><button>About</button></li>
+                    <li><button className="btnDarkMode" onClick={() => setDarkMode(!darkMode)}>
+                    🌙</button></li>
+                    {/* {darkMode ? "☀️" : "🌙"} */}
                 </ul>
             </nav>
         </header>
