@@ -5,9 +5,9 @@ import Cocktails from './assets/components/cocktail/Cocktails'
 
 function App() {
 
-  const cocktails = Array(15).fill(null);
+  const cocktails = Array(9).fill(null);
   console.log(cocktails)
-  
+
   return (
     <>
      <Nav/>
@@ -16,7 +16,6 @@ function App() {
      <section>
           {cocktails.map((_, index) => (
               <Cocktails key={index} />
-
           ))}
 
 

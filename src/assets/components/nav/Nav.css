@@ -9,7 +9,8 @@ header {
 }
 
 nav {
-    width: 66%;
+    margin-top: 15px;
+    width: 75%;
     display: flex;    
     justify-content: space-between;
 }
