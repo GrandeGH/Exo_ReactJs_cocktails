@@ -22,8 +22,9 @@
 .bodyCard {
     width: 90%;
     margin: 15px;
-    h2, h4 {
-        margin-bottom: 10px;
+    h3, h5 {
+        margin-bottom: 6px;
+        letter-spacing: 3px;
     }
     p {
         font-size: 13px;
@@ -36,7 +37,10 @@
         color: white;
         border: none;
         padding: 8px;
+        padding-inline: 10px;
         border-radius: 5px;
-        font-size: 13px;
+        font-size: 12px;
+        letter-spacing: 3px;
+
     }
 }

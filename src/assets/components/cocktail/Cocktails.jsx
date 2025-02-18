@@ -6,8 +6,8 @@ function Cocktails() {
         <div className='card'>
             <div className='imgCard'></div>
             <div className='bodyCard'>
-                <h2>Cocktail Name</h2>
-                <h4>Second name</h4>
+                <h3>Cocktail Name</h3>
+                <h5>Second name</h5>
                 <p>Alcoholic</p>
                 <button>DETAILS</button>
             </div>

@@ -10,8 +10,8 @@ function App() {
   console.log(cocktails)
 
   // ----- darkmode -----
-  const darkMode = true
-  // const darkMode = false
+  // const darkMode = true
+  const darkMode = false
 
   // let [darkMode, setDarkMode] = useState(false)
 
