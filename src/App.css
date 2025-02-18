@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  /* outline: 1px solid red; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(200, 200, 200);
+}
+.cocktailsTitre {
+  display: flex;
+  justify-content: center;
+  margin-block: 20px;
+}
+
+section {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}

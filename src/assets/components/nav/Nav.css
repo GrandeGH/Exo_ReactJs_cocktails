@@ -1,0 +1,27 @@
+header {
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 15px black;
+}
+
+nav {
+    width: 66%;
+    display: flex;    
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 3px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+}

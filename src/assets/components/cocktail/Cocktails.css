@@ -1,0 +1,41 @@
+.card {
+    width: 300px;
+    height: 460px;
+    background-color: white;
+    box-shadow: 2px 2px 7px 0 black;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.imgCard {
+    background-image: url(/public/R.jpg);
+    background-position: center left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.bodyCard {
+    width: 90%;
+    margin: 15px;
+    h2, h4 {
+        margin-bottom: 10px;
+    }
+    p {
+        font-size: 13px;
+        margin-bottom: 10px;
+        font-weight: thin;
+        color: grey;
+    }
+    button {
+        background-color: darkgreen;
+        color: white;
+        border: none;
+        padding: 8px;
+        border-radius: 5px;
+    }
+}
